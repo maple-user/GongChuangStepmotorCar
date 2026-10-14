@@ -1,0 +1,32 @@
+# 编译输出目录
+MDK-ARM/GongChuang_CarBoard/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+
+# 编译产物
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+*.map
+*.axf
+*.lst
+
+# Keil工程相关
+*.uvoptx
+*.uvgui*
+*.bak
+*.uvprojx.bak
+
+# STM32CubeMX生成的临时文件
+.MXproject/
+*.ioc.backup
+cubemx_backup_*
+
+
+# vscode本地配置
+.vscode/
+
+# 日志
+*.log
